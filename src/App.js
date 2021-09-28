@@ -1,10 +1,10 @@
 import { RcButton, RcThemeProvider, RcIconButton } from "@ringcentral/juno";
-import { iconSymbolMap } from "@ringcentral/juno/components/Icon/name2icon";
+import { Add } from "@ringcentral/juno/icon";
 
 function App() {
   return (
-    <RcThemeProvider icons={iconSymbolMap}>
-      <RcIconButton>leftNavTask_border</RcIconButton>
+    <RcThemeProvider>
+      <RcIconButton symbol={Add} />
 
       <RcButton>Button</RcButton>
     </RcThemeProvider>
