@@ -5,7 +5,7 @@
   "dependencies": {
     "@babel/core": "7.12.3",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.3",
-    "@ringcentral/juno": "^1.6.0-beta.1",
+    "@ringcentral/juno": "^1.11.4",
     "@svgr/webpack": "5.5.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
